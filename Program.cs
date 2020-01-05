@@ -25,7 +25,7 @@ namespace HwReader
                 string[] substrings = line.Split(": ");
                 string a = substrings[0];
                 
-;               if(a == "Consumer 1")
+                if(a == "Consumer 1")
                 {
                     string b = substrings[1];
                     counter++;
